@@ -23,6 +23,8 @@ public class DieTest
 		assertEquals(6, die1.getValue());
 		die1.roll();
 		assertEquals(1, die1.getValue());
+		die1.roll();
+		assertEquals(2, die1.getValue());
 	}
 
 }
