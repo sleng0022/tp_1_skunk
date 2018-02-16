@@ -10,6 +10,7 @@ public class Die
 		num_roll = 0;
 	}
 	
+	//Roll function. Makes sure die value wraps around 6 to 1
 	public void roll()
 	{
 		num_roll++;
