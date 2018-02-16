@@ -17,14 +17,11 @@ public class Die
 		{
 			num_roll = 1;
 		}
+		value = num_roll;
 	}
 	
 	public int getValue()
-	{
-		int[] die_num = new int[]{1,2,3,4,5,6};
-		
-		value = die_num[num_roll-1];
-		
+	{	
 		return value;
 	}
 }
