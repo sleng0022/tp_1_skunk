@@ -1,10 +1,10 @@
 
-public class Dice
+public class SimDice
 {
-	private Die die1 = new Die();
-	private Die die2 = new Die();
+	private SimDie die1 = new SimDie();
+	private SimDie die2 = new SimDie();
 	
-	public Dice()
+	public SimDice()
 	{
 		
 	}

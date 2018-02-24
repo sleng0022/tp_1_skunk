@@ -3,7 +3,7 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
-@SuiteClasses({ SkunkAppTest.class, DieTest.class, DiceTest.class})
+@SuiteClasses({ SkunkAppTest.class, DieTest.class, DiceTest.class, PlayerTest.class})
 public class AllTests {
 
 }

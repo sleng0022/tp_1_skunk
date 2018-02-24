@@ -1,10 +1,10 @@
 
-public class Die 
+public class SimDie 
 {
 	private int value;
 	private int num_roll;
 	
-	public Die()
+	public SimDie()
 	{
 		value = 0;
 		num_roll = 0;
